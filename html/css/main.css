@@ -1,7 +1,22 @@
-body {
+body, .navbar-toggler {
   background-color: lightgray;
 }
 
-h1 {
-  font-family: monospace;
+.navbar-brand, .navbar-brand:hover {
+  color: lightgray;
+}
+
+.nav-link:hover {
+  background-color: inherit;
+  color: lightgray;
+}
+
+.nav-link {
+  border-radius: 8px;
+  background-color: lightgray;
+  color: black;
+}
+
+.navbar-text {
+  color: lightgray;
 }
